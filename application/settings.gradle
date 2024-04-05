@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CloudWell"
+rootProject.name = "IOME"
 include ':app'

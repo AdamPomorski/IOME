@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <color name="purple_200">#FFBB86FC</color>
+<resources>
+    <color name="purple_200">#BA85FB</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#20243e</color>
-    <color name="colorPrimaryDark">#1e223b</color>
-    <color name="colorAccent">#FFF</color>
-    <color name="PrimaryTextCoor">#ffffff</color>
-    <color name="LigthTextCoor">#b0b2c2</color>
-    <color name="colorWistful">#a2a2d2</color>
-    <color name="SecondaryTextCoor">#1a1a31</color>
-    <color name="SecondaryGradient">#00A7E7</color>
-    <color name="PrimaryGradient">#234F9D</color>
-    <color name="dark">#262a41</color>
-    <color name="fordTextColor">#d1cece</color>
-    <color name="blue">#6d5fce</color>
-    <color name="darkblue">#353b58</color>
-    <color name="lineColor">#7d8090</color>
-    <color name="blueTextCoor">#3fb7d9</color>
-    <color name="whiteTextCoor">#FFF</color>
-    <color name="gradient_color">
-            <gradient
-                android:endColor="@color/PrimaryGradient"
-                android:startColor="@color/SecondaryGradient"
-                android:angle="90"
-                android:type="linear"/>
-    </color>
+    <color name="grey">#d9d7d7</color>
+    <color name="grey_dark">#5a5b5c</color>
+    <color name="purple_button">#8253C3</color>
+
+
+    <color name="cat_grayscale_8_90">#E6121314</color>
+    <color name="cat_grayscale_25">#3e3e40</color>
+
+    <color name="cat_white">#ffffff</color>
+    <color name="cat_white_12_5">#20ffffff</color>
+    <color name="cat_white_40">#66ffffff</color>
+
+    <color name="cat_medium_green">#1db954</color>
+    <color name="cat_light_green">#1ed760</color>
+
+    <!-- Cat theme colors. -->
+
+    <color name="cat_text_link">@color/cat_white</color>
+
+    <color name="cat_button_background_default">@android:color/transparent</color>
+    <color name="cat_button_background_disabled">@android:color/transparent</color>
+    <color name="cat_button_background_focused">@android:color/transparent</color>
+    <color name="cat_button_background_pressed">@android:color/transparent</color>
+    <color name="cat_button_text_default">@color/cat_white</color>
+    <color name="cat_button_text_disabled">@color/cat_white_40</color>
+    <color name="cat_button_text_focused">@color/cat_white</color>
+    <color name="cat_button_text_pressed">@color/cat_white</color>
+    <color name="cat_button_border_default">@color/cat_white_40</color>
+    <color name="cat_button_border_disabled">@color/cat_white_12_5</color>
+    <color name="cat_button_border_focused">@color/cat_white_40</color>
+    <color name="cat_button_border_pressed">@color/cat_grayscale_25</color>
+    <color name="cat_button_border_checked">@color/cat_light_green</color>
 </resources>

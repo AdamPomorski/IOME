@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:id="@+id/chart_container"
+    android:background="@drawable/app_background_4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chart_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".user_profile.ui.user_profile.ChartFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="History"
+            app:titleMarginStart="30dp"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/chooseTimeStartHistory"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Start time: "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_chart"
+            app:layout_goneMarginTop="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <EditText
+            android:id="@+id/start_date"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:inputType="date"
+            android:text="26-01-2023"
+            app:layout_constraintStart_toEndOf="@+id/chooseTimeStartHistory"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_chart"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+             />
+
+        <TextView
+            android:id="@+id/chooseTimeStopHistory"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Stop time: "
+            app:layout_constraintStart_toStartOf="@id/chooseTimeStartHistory"
+            app:layout_constraintTop_toBottomOf="@id/chooseTimeStartHistory"
+             />
+
+        <EditText
+            android:id="@+id/stop_date"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:inputType="date"
+            android:text="19-12-2023"
+            app:layout_constraintStart_toEndOf="@+id/chooseTimeStopHistory"
+            app:layout_constraintTop_toBottomOf="@id/start_date"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/start_hours"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="08-00-00"
+            app:layout_constraintStart_toEndOf="@+id/start_date"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_chart"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:id="@+id/stop_hours"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="22-00-00"
+            app:layout_constraintStart_toEndOf="@+id/stop_date"
+            app:layout_constraintTop_toBottomOf="@+id/start_hours"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+             />
+
+        <Button
+            android:id="@+id/confirm_button_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stop_date"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/purple_button"
+            />
+
+
+            <com.example.iome.AAChartCoreLib.AAChartCreator.AAChartView
+                android:id="@+id/AAChartView"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:backgroundTint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/confirm_button_chart"
+                android:layout_marginTop="50dp"
+                />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
