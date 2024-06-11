@@ -41,21 +41,64 @@ The project's goal of creating an application for subconscious mind training usi
 
 Future development possibilities include collaboration with Spotify to integrate these features into their main application, improving the sound control algorithm, adding sleep-aiding functions, and conducting extensive tests. Additionally, the application could be used in Internet of Things projects, such as office concentration control systems or Smart Home integrations.
 
+## Component Diagram
+<p align="center">
+<img src="img/component_diagram.png" alt="First screen" width="800"/>
+</p>
+
 ## Views
 
 ### Login and Registration Activity
 Login Activity describes the login screen with fields for entering email and password, and buttons for managing music playback. Registration Activity presents the user registration process, including data requirements and verification through Firebase.
-### Device Selection Activityy
+<p align="center">
+    <img src="img/activity_signup.png" alt="First screen" width="203"/>
+   <img src="img/activity_signin.png" alt="Second screen" width="200"/>
+</p>
+
+### Device Selection Activity
 Allows the selection of an EEG device for monitoring brain waves and integration with the app.
+<p align="center">
+    <img src="img/select_device_1.jpg" alt="First screen" width="200"/>
+   <img src="img/select_device_2.jpg" alt="Second screen" width="200"/>
+</p>
+
 ### Main Menu Activity
 Describes the main menu of the app, including meditation and attention options, and connection with the EEG headband and Spotify.
+<p align="center">
+    <img src="img/home_1.jpg" alt="First screen" width="200"/>
+   <img src="img/home_2.jpg" alt="Second screen" width="200"/>
+    <img src="img/home_3.jpg" alt="Second screen" width="200"/>
+</p>
+
 ### User Profile Activity
 Contains charts and analysis of the user’s EEG data, presenting measurement results and favorite tracks.
+
+<p align="center">
+    <img src="img/user_profile.jpg" alt="First screen" width="200"/>
+    <img src="img/top_songs_1.jpg" alt="Second screen" width="200"/>
+    <img src="img/top_songs_2.jpg" alt="Second screen" width="200"/>
+</p>
+
+<p align="center">
+     <img src="img/meditation_history_1.jpg" alt="First screen" width="200"/>
+    <img src="img/meditation_history_2.jpg" alt="Second screen" width="200"/>
+    <img src="img/attention_history_1.jpg" alt="Second screen" width="200"/>
+    <img src="img/attention_history_2.jpg" alt="Second screen" width="200"/>
+</p>
+
 ### Audio Player Activity
 Describes the functionality of the audio player, including playback management and rewarding the user for focus.
 
 
 <p align="center">
-    <img src="img/first_screen.png" alt="First screen" width="300"/>
-   <img src="img/second_screen.png" alt="Second screen" width="300"/>
+    <img src="img/player.png" alt="First screen" width="200"/>
+     <img src="img/attention.jpg" alt="Second screen" width="200"/>
+    <img src="img/meditation_1.jpg" alt="Second screen" width="200"/>
+    <img src="img/meditation_2.jpg" alt="First screen" width="200"/>
+    <img src="img/timer_1.jpg" alt="Second screen" width="200"/>
+    <img src="img/timer_2.jpg" alt="Second screen" width="200"/>
+    <img src="img/timer_3.jpg" alt="Second screen" width="200"/>
+    <img src="img/volume_control.jpg" alt="Second screen" width="200"/>
+
 </p>
+
